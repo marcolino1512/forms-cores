@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: #7B68EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background 0.6s ease;
+}
+.container{
+    position: relative;
+    width: 550px;
+    height: 400px;
+    background: #fff;
+    overflow: hidden;
+}
+form {
+    position: absolute;
+    width: 50%;
+    padding: 40px 10px;
+}
+form h1 {
+    text-align: center;
+    color: #20B2AA;
+    padding: 20px;
+    transition: color 0.6s ease;
+}
+.box{
+    width: 100%;
+    height: 40px;
+}
+.box input {
+    width: 100%;
+    height: 68px;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    text-align: center;
+}
+input[type="submit"]{
+    background: #00CED1;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    transition: background 0.6s ease;
+}
+.form-right{
+    display: flex;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: #4169E1;
+    align-items: center;
+    padding-top: 25%;
+    flex-direction: column;
+    transition: background 0.6s ease;
+}
+.cores-form{
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: 60px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.cores-form span{
+    background: var(--i);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+.cores-form span:hover{
+    transform: scale(1.15);
+}
